@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">QBITDemonstration</string>
+
+
+    <string-array name="dListItems">
+        <item>Calendar</item>
+        <item>Doctors and nurses</item>
+        <item>Reminder settings</item>
+        <item>Usage Diary</item>
+        <item>Edit Prescriptions</item>
+    </string-array>
 </resources>
