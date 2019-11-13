@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.widget.Adapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
-
+//hello
 public class MainActivity extends AppCompatActivity {
 
     private ListView doctorsList ;
