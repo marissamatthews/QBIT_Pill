@@ -1,6 +1,7 @@
 package com.example.qbitdemonstration;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -53,8 +54,17 @@ public class dListAdapter extends BaseAdapter {
       //  priceTextView.setText(price) ;
        // descriptionTextView.setText(description) ;
 
-        if (position % 2 == 0) {
-           // checkOrX.setImageResource(R.drawable.redx);
+        if (position == 0) {
+           // checkOrX.setImageResource(R.drawable.redx) ;
+            image.setImageResource(R.drawable.ic_perm_contact_calendar_black_24dp);
+        } else if (position == 1) {
+            image.setImageResource(R.drawable.ic_local_hospital_black_24dp);
+        } else if (position == 2){
+            image.setImageResource(R.drawable.ic_schedule_black_24dp);
+        } else if (position == 3) {
+            image.setImageResource(R.drawable.ic_sort_black_24dp);
+        } else if (position == 4) {
+            image.setImageResource(R.drawable.ic_edit_black_24dp);
         }
 
         return v ;
