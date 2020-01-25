@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         doctorsList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position == 5) {
+                if (position == 4) {
                     Intent intent = new Intent(getApplicationContext(), myDispenserActivity.class) ;
                     startActivity(intent);
                 }
